@@ -11,6 +11,10 @@
 		732D4CE82B7BE09F00E81356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D4CE72B7BE09F00E81356 /* ContentView.swift */; };
 		732D4CEA2B7BE0A400E81356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732D4CE92B7BE0A400E81356 /* Assets.xcassets */; };
 		732D4CED2B7BE0A400E81356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732D4CEC2B7BE0A400E81356 /* Preview Assets.xcassets */; };
+		732D4CF42B7BE32A00E81356 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D4CF32B7BE32A00E81356 /* Event.swift */; };
+		732D4CF62B7BE60A00E81356 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D4CF52B7BE60A00E81356 /* EventTask.swift */; };
+		732D4CF82B7BE68000E81356 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D4CF72B7BE68000E81356 /* EventData.swift */; };
+		732D4CFA2B7BEDBE00E81356 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732D4CF92B7BEDBE00E81356 /* EventList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		732D4CE72B7BE09F00E81356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		732D4CE92B7BE0A400E81356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		732D4CEC2B7BE0A400E81356 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		732D4CF32B7BE32A00E81356 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		732D4CF52B7BE60A00E81356 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		732D4CF72B7BE68000E81356 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		732D4CF92B7BEDBE00E81356 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				732D4CE72B7BE09F00E81356 /* ContentView.swift */,
 				732D4CE92B7BE0A400E81356 /* Assets.xcassets */,
 				732D4CEB2B7BE0A400E81356 /* Preview Content */,
+				732D4CF32B7BE32A00E81356 /* Event.swift */,
+				732D4CF52B7BE60A00E81356 /* EventTask.swift */,
+				732D4CF72B7BE68000E81356 /* EventData.swift */,
+				732D4CF92B7BEDBE00E81356 /* EventList.swift */,
 			);
 			path = DatePlannerApp;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732D4CFA2B7BEDBE00E81356 /* EventList.swift in Sources */,
 				732D4CE82B7BE09F00E81356 /* ContentView.swift in Sources */,
+				732D4CF42B7BE32A00E81356 /* Event.swift in Sources */,
+				732D4CF82B7BE68000E81356 /* EventData.swift in Sources */,
 				732D4CE62B7BE09F00E81356 /* DatePlannerAppApp.swift in Sources */,
+				732D4CF62B7BE60A00E81356 /* EventTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
